@@ -1,0 +1,31 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background: #f9fafb;
+  color: #0f172a;
+}
+.app header h1 {
+  margin: 0 0 1rem 0;
+}
+.controls input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 40%;
+}
+.controls button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+.results {
+  margin-top: 1rem;
+}
+.recall-card {
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  background: white;
+}
+aside {
+  margin-top: 1rem;
+}
