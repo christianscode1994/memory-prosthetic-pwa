@@ -1,0 +1,29 @@
+{
+  "name": "memory-prosthetic-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "idb": "^7.0.1",
+    "onnxruntime-web": "^1.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.1.6",
+    "vite": "^5.1.0",
+    "eslint": "^8.44.0",
+    "prettier": "^2.9.0",
+    "vitest": "^1.3.0",
+    "esbuild": "^0.19.2"
+  }
+}
