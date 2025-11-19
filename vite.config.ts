@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
-export default defineConfig({
-  plugins: [react()],
-  build: {
-    target: 'es2020'
-  }
+export default defineConfig(async () => {
+  const reactPlugin = (await import('@vitejs/plugin-react')).default;
+  return {
+    plugins: [reactPlugin()],
+    build: { target: 'es2020' }
+  };
 });
